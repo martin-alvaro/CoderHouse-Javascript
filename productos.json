@@ -1,0 +1,197 @@
+[
+    {
+        "precio": 13.999,
+        "id":1,
+        "nombre": "Camiseta of. Boca Jrs.",
+        "img":"./assets/boca-titular.jpg"
+    },
+    
+    {
+        "precio": 13.999,
+        "id":2,
+        "nombre": "Camiseta alt. Boca Jrs.",
+        "img":"./assets/boca-alternativa.jpg"
+    },
+    
+    {
+        "precio": 13.999,
+        "id":3,
+        "nombre": "Camiseta of. River Plate",
+        "img":"./assets/river-titular.jpg"
+    },
+    
+    {
+        "precio": 13.999,
+        "id":4,
+        "nombre": "Camiseta alt. River Plate",
+        "img":"./assets/river-alternativa.jpg"
+    },
+    
+    {
+        "precio": 13.999,
+        "id":5,
+        "nombre": "Camiseta of. Racing",
+        "img":"./assets/racing-titular.jpg"
+    },
+    
+    {
+        "precio": 13.999,
+        "id":6,
+        "nombre": "Camiseta alt. Racing",
+        "img":"./assets/racing-alternativa.jpg"
+    },
+    
+    {
+        "precio": 13.999,
+        "id":7,
+        "nombre": "Camiseta of. San Lorenzo",
+        "img":"./assets/sanlorenzo-titular.jpg"
+    },
+    
+    {
+        "precio": 13.999,
+        "id":8,
+        "nombre": "Camiseta alt. San Lorenzo",
+        "img":"./assets/sanlorenzo-alternativa.jpg"
+    },
+    
+    {
+        "precio": 13.999,
+        "id":9,
+        "nombre": "Camiseta of. Independiente",
+        "img":"./assets/independiente-titular.jpg"
+    },
+    
+    {
+        "precio": 13.999,
+        "id":10,
+        "nombre": "Camiseta alt. Independiente",
+        "img":"./assets/independiente-alternativa.jpg"
+    },
+    
+    {
+        "precio": 19.999,
+        "id":11,
+        "nombre": "Camiseta of. Argentina",
+        "img":"./assets/argentina-titular.jpg"
+    },
+    
+    {
+        "precio": 19.999,
+        "id":12,
+        "nombre": "Camiseta alt. Argentina",
+        "img":"./assets/argentina-alternativa.jpg"
+    },
+    
+    {
+        "precio": 6.999,
+        "id":13,
+        "nombre": "Short of. Boca Jrs.",
+        "img":"./assets/short-titular-boca.jpg"
+    },
+    
+    {
+        "precio": 6.999,
+        "id":14,
+        "nombre": "Short alt. Boca Jrs.",
+        "img":"./assets/short-alternativo-boca.jpg"
+    },
+    
+    {
+        "precio": 6.999,
+        "id":15,
+        "nombre": "Short of. River Plate",
+        "img":"./assets/short-titular-river.jpg"
+    },
+    
+    {
+        "precio": 6.999,
+        "id":16,
+        "nombre": "Short alt. River Plate",
+        "img":"./assets/short-alternativo-river.jpg"
+    },
+    
+    {
+        "precio": 6.999,
+        "id":17,
+        "nombre": "Short of. Racing",
+        "img":"./assets/short-titular-racing.jpg"
+    },
+    
+    {
+        "precio": 6.999,
+        "id":18,
+        "nombre": "Short alt. Racing",
+        "img":"./assets/short-alternativo-racing.jpg"
+    },
+    
+    {
+        "precio": 6.999,
+        "id":19,
+        "nombre": "Short of. San Lorenzo",
+        "img":"./assets/short-titular-sanlorenzo.jpg"
+    },
+    
+    {
+        "precio": 6.999,
+        "id":20,
+        "nombre": "Short of. Independiente",
+        "img":"./assets/short-titular-independiente.jpg"
+    },
+    
+    {
+        "precio": 6.999,
+        "id":21,
+        "nombre": "Short alt. Independiente",
+        "img":"./assets/short-alternativo-independiente.jpg"
+    },
+    
+    {
+        "precio": 7.999,
+        "id":22,
+        "nombre": "Short of. Argentina",
+        "img":"./assets/short-titular-argentina.jpg"
+    },
+    
+    {
+        "precio": 6.999,
+        "id":23,
+        "nombre": "Short alt. Argentina",
+        "img":"./assets/short-alternativo-argentina.jpg"
+    },
+    
+    {
+        "precio": 16.999,
+        "id":24,
+        "nombre": "Botines Adidas Predator",
+        "img":"./assets/botines-azules.jpg"
+    },
+    
+    {
+        "precio": 16.999,
+        "id":25,
+        "nombre": "Botines Adidas X Ghosted",
+        "img":"./assets/botines-blancos.jpg"
+    },
+    
+    {
+        "precio": 16.999,
+        "id":26,
+        "nombre": "Botines Adidas Nemeziz",
+        "img":"./assets/botines-naranjas.jpg"
+    },
+    
+    {
+        "precio": 16.999,
+        "id":27,
+        "nombre": "Botines Adidas X Speedflow",
+        "img":"./assets/botines-amarillos.jpg"
+    },
+    
+    {
+        "precio": 16.999,
+        "id":28,
+        "nombre": "Botines puma Future",
+        "img":"./assets/botines-naranja-negro.jpg"
+    } 
+]

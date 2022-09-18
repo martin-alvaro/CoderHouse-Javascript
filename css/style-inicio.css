@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+
+
+header {
+    background-color: #180a30;
+    margin-bottom: 5px;
+}
+
+.logo {
+    height: 130px;
+    margin-left: 40px;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(100deg, rgb(161, 132, 240)25%, #2fdabd 50%, rgb(161, 132, 240) 75%);
+    animation: gradient 20s linear infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: -80rem 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+nav div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+li {
+    padding-right: 30px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#enlace, li{
+    color: #FCF8E8;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+
+.imagen-fondo {
+    height: 624px;
+    background-image: url('../assets/imagen-fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+
+#titulo {
+    font-size: 70px;
+    border: 2px solid black;
+    color: #353535;
+    font-family: monospace;
+    padding: 2.6rem;
+    background-color: rgba(173, 241, 200, 0.5);
+    border-radius: 70px;
+
+}
+
+
+
+.carrito {
+    text-align: center;
+    font-size: 40px;
+}
+
+#productos {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn-agregar {
+    color: white;
+    background-color: rgb(232, 99, 10);
+    border-radius: 10px;
+    width: 90%;
+}
+
+.btn-agregar:hover{
+    background-color: #7F8487;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+    row-gap: 20px;
+    column-gap: 5px;
+    justify-content: center;
+}
+
+.card {
+    border: solid;
+    text-align: center;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(60deg, #b163c4, #5f97b9, rgba(0, 0, 0, 0.8));
+    transition: all 600ms;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    height: 280px;
+    padding: 5px;
+}
+
+.card-body {
+    width: 300px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-mas {
+    background-color: #17a2b8;
+    font-size: 18px;
+    color: white;
+    width: 30px;
+    transition: 900ms;
+}
+
+.btn-menos {
+    background-color: #dc3545;
+    font-size: 18px;
+    color: white;
+    width: 30px;
+    transition: 900ms;
+}
+
+
+.btn-mas:hover {
+    color: white;
+    background-color: #086573;
+    border: none;
+    transform: scale(1.2);
+}
+
+.btn-menos:hover {
+    color: white;
+    background-color: #b02a37;
+    border: none;
+    transform: scale(1.2);
+}
+
+
+.cancha {
+    background-image: url("../assets/cancha-fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.container h4 {
+    font-size: 30px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.card-body h4 {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.card-body h5 {
+    font-size: 18px;
+}
+
+
+#vaciar-carrito {
+    font-size: 17px;
+}
+
+.table {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.table tr {
+    font-size: 20px;
+}
+
+td img {
+    height: 80px;
+    width: 80px;
+}
+
+
+.alCheckout {
+    text-decoration: none;
+    color: white;
+}
+
+.alCheckout:hover {
+    color: white;
+}
+
+
+.btn-success {
+    transition: 600ms;
+}
+
+.btn-success:hover {
+    transform: scale(1.06);
+}
+
+
+#vaciar-carrito {
+    transition: 900ms;
+    font-size: 18px;
+}
+
+
+#vaciar-carrito:hover {
+    transform: scale(1.2);
+}

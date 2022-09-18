@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+	</script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+	<link rel="stylesheet" href="./css/style-checkout.css">
+	<title>Checkout</title>
+
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<div>
+				<a href="./index.html">
+					<img class="logo" src="./assets/logo.png">
+				</a>
+
+				<ul>
+					<li class="checkout">Checkout</li>
+				</ul>
+			</div>
+		</nav>
+
+
+	</header>
+	<main>
+
+		<div class="container">
+			<div class="precio">
+				<p id="precio-total">precio</p>
+			</div>
+			<div id="formulario">
+				<div class="row">
+					<label class="form-label">Nombre y Apellido</label>
+					<input id="nombre" type="text" class="form-control" aria-label="First name">
+				</div>
+				<div class="row">
+					<label class="form-label">Teléfono</label>
+					<input id="tel" type="tel" class="form-control">
+				</div>
+				<div class="row">
+					<label for="email" class="form-label">Dirección</label>
+					<input id="email" class="form-control">
+				</div>
+				<div class="row">
+					<button onclick="fin()" type="submit" class="btn btn-success">Comprar</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="fin">
+			<p id="gracias">
+				
+			</p>
+			<div>
+				<a id="casa" href="./index.html"></a>
+			</div>
+		</div>
+
+	</main>
+	<script src="./codigo.js"></script>
+	<script src="./checkout.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
