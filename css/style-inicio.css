@@ -56,7 +56,8 @@ li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#enlace, li{
+#enlace,
+li {
     color: #FCF8E8;
     text-decoration: none;
     font-size: 22px;
@@ -91,10 +92,6 @@ li {
 
 
 
-.carrito {
-    text-align: center;
-    font-size: 40px;
-}
 
 #productos {
     font-size: 40px;
@@ -109,7 +106,7 @@ li {
     width: 90%;
 }
 
-.btn-agregar:hover{
+.btn-agregar:hover {
     background-color: #7F8487;
 }
 
@@ -211,16 +208,18 @@ li {
 }
 
 .table {
-    width: 80%;
-    margin: auto;
+    width: 100%;
     margin-bottom: 60px;
     border: 2px solid black;
     text-align: center;
+
 }
 
 .table tr {
     font-size: 20px;
 }
+
+
 
 td img {
     height: 80px;
@@ -255,4 +254,25 @@ td img {
 
 #vaciar-carrito:hover {
     transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 515px) {
+    .logo {
+        height: 100px;
+        margin-left: 40px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        width: 100px;
+    }
+
+    #titulo {
+        font-size: 40px;    
+    }
+    
+    
+    #footer{
+        position: relative;
+    }
+
 }

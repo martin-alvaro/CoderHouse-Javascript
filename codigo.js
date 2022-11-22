@@ -197,7 +197,7 @@ const pintarFooter = () => {
     //cuando no hay ningun producto en el carrito
     if (Object.keys(carrito).length == 00) {
         footer.innerHTML = `
-        <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+        <th scope="row" colspan="4">Carrito vacío - comience a comprar!</th>
         `
         return
     }
